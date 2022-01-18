@@ -914,7 +914,7 @@
     (pad "MH" thru_hole oval (at 7.85 -4.5 180) (size 1 2.5) (drill oval 0.7 2.2) (layers *.Cu *.Mask) (tstamp 85cf8402-f112-4773-ad0f-8c07b38191a4))
     (pad "MH" thru_hole oval (at 7.85 2.55 180) (size 1 2.5) (drill oval 0.7 2.2) (layers *.Cu *.Mask) (tstamp dc822190-1453-4577-ac4d-ce527c659efa))
     (pad "MH" thru_hole oval (at -7.85 2.55 180) (size 1 2.5) (drill oval 0.7 2.2) (layers *.Cu *.Mask) (tstamp fec91f61-5800-4a24-a58d-3f83d496c66c))
-    (model "C:/Users/dkkang/Documents/KiCad/6.0/3dmodels/48258-0001.step"
+    (model "${KIPRJMOD}/packages3D/48258-0001.step"
       (offset (xyz 0 1 1))
       (scale (xyz 1 1 0.8))
       (rotate (xyz -90 0 0))
