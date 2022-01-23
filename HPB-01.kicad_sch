@@ -4017,7 +4017,7 @@
     (uuid 7175ab0c-615f-4b9c-bf15-51020ecf4cac)
     (property "Reference" "J1" (id 0) (at 30.607 82.55 0))
     (property "Value" "USB_A" (id 1) (at 30.607 85.09 0))
-    (property "Footprint" "HUCONN-Connector_USB:USB_A_FEMALE_905-662A203S10200" (id 2) (at 33.02 96.52 0)
+    (property "Footprint" "Library:USB_A_FEMALE_905-662A203S10200" (id 2) (at 33.02 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 33.02 96.52 0)
@@ -4636,13 +4636,13 @@
     (property "Value" "SW_Push" (id 1) (at 157.48 156.2099 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010" (id 2) (at 151.13 154.94 0)
+    (property "Footprint" "Library:1TS003B-1900-4500A-CT_C349395" (id 2) (at 151.13 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 151.13 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C127481" (id 4) (at 156.21 154.94 90)
+    (property "LCSC" "C349395" (id 4) (at 156.21 154.94 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3ed77a34-2fa1-4a63-b0c6-ec21badd92b4))
@@ -5320,7 +5320,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/7175ab0c-615f-4b9c-bf15-51020ecf4cac"
-      (reference "J1") (unit 1) (value "USB_A") (footprint "HUCONN-Connector_USB:USB_A_FEMALE_905-662A203S10200")
+      (reference "J1") (unit 1) (value "USB_A") (footprint "Library:USB_A_FEMALE_905-662A203S10200")
     )
     (path "/19a81317-e9f1-4d34-9a71-b15696bab823"
       (reference "J2") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal")
@@ -5404,7 +5404,7 @@
       (reference "R12") (unit 1) (value "110k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/bc43b947-844a-4301-b80a-09fe984eb0f5"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Library:1TS003B-1900-4500A-CT_C349395")
     )
     (path "/7434b9ec-7446-4163-8ac1-7817e9d6b81b"
       (reference "TH1") (unit 1) (value "100k@25C 4250K") (footprint "Resistor_SMD:R_0603_1608Metric")
